@@ -12,6 +12,7 @@ It includes following packagers.
 - development
 - xterm
 - httpd
+- valgrind
 
 But PAServer has not included. so you have to install PAServer by yourself.
 
