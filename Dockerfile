@@ -5,5 +5,5 @@ RUN set -x && \
     yum -y upgrade && \
     yum -y install epel-release wget curl && \
     yum -y install p7zip p7zip-plugins && \
-    yum -y install xterm httpd && \
+    yum -y install xterm httpd valgrind && \
     yum -y groupinstall "Development Tools"
